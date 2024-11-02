@@ -47,6 +47,10 @@ export function FileUpload({ onFileSelect }: FileUploadProps) {
           <p className="text-sm text-neutral-400">
             Drag and drop your video or audio file, or click to select
           </p>
+       
+          <p className="text-xs text-neutral-500">
+            Supported formats: .mp4, .webm, .ogg, .mp3, .wav
+          </p>
         </div>
         <Button variant="secondary" className="mt-4">
           Select File
